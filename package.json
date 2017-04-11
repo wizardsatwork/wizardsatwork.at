@@ -1,0 +1,21 @@
+{
+  "name": "wizardsatwork.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run clean && magic-build build",
+    "build": "NODE_ENV=production magic-build build noWatch noServe",
+    "clean": "rm -rf public",
+    "lint:css": "magic-build lint css",
+    "lint:html": "magic-build lint html",
+    "publish": "NODE_ENV=production magic-build build zip publish noWatch noServe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "magic-build": "github:magic/build",
+    "magic-types": "github:magic/types"
+  }
+}
