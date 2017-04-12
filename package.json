@@ -9,7 +9,8 @@
     "clean": "rm -rf public",
     "lint:css": "magic-build lint css",
     "lint:html": "magic-build lint html",
-    "publish": "NODE_ENV=production magic-build build zip publish noWatch noServe"
+    "publish": "NODE_ENV=production magic-build build zip publish noWatch noServe",
+    "init": "git subtree split -b gh-pages --prefix public"
   },
   "keywords": [],
   "author": "",
