@@ -5,11 +5,8 @@ global-reset()
 
 @import '/wnw-logo'
 
-@import '/layout/mobile'
+@import '/layout/main'
 @import '/layout/tablet'
 @import '/layout/desktop'
 
 @import '/transitions'
-
-.impressum
-  font-size .8em

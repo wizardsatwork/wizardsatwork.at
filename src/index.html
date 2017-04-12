@@ -1,7 +1,6 @@
 extends /page.pug
 
 block content
-
   section#hero
     include /wnw-logo.svg
 
@@ -14,7 +13,6 @@ block content
         span.anim shifting
         | &nbsp;
         span.anim paradigms
-
 
   section.about
     p.
@@ -48,5 +46,6 @@ block content
     p Mitglied der WKÖ, WKW
 
     h3 Berufsrecht:
-    p Gewerbeordnung: www.ris.bka.gv.at
-    p Bezirkshauptmannschaft Wien
+    p= 'Gewerbeordnung: '
+    p
+      a(href='http://www.ris.bka.gv.at' target='fnord') Bezirkshauptmannschaft Wien
