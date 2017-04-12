@@ -2,7 +2,7 @@
 const ANIMATED = 'animated'
 const HERO = 'hero'
 const HAT = 'hat'
-const animDuration = 700
+const animDuration = 500
 
 const hasClass =
   (ele, cl) =>
