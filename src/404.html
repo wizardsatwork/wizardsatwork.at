@@ -4,8 +4,8 @@ block title
   title 404 page
 
 block content
-  div redirecting...
+  #hero.section
+    include /hero.pug
 
-block scripts
-  script.
-    window.location.href = '/'
+  #error404.section
+    div 404 - not found

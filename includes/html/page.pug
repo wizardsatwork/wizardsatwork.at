@@ -9,7 +9,7 @@ html(lang='en')
 
     link(
       rel='icon'
-      href='/favicon.ico'
+      href=`${WEB_ROOT}favicon.ico`
     )
 
     meta(
@@ -24,7 +24,7 @@ html(lang='en')
 
     link(
       rel='stylesheet'
-      href='/main.css'
+      href=`${WEB_ROOT}main.css`
     )
 
   body(id='♥')
@@ -36,10 +36,4 @@ html(lang='en')
         include /footer.pug
 
     block scripts
-      script.
-        var d = document;
-        var b = d.body;
-        var s = d.createElement('script');
-        b.className = b.className.replace('nojs', 'js');
-        s.src = '/js/index.js';
-        b.appendChild(s);
+      script(src=`${WEB_ROOT}js/index.js`)
