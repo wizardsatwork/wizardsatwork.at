@@ -1,41 +1,48 @@
-// const d = document
-const ANIMATED = 'animated'
-const HERO = 'hero'
-const HAT = 'hat'
-const animDuration = 500
+var ANIMATED = 'animated'
+var HERO = 'hero'
+var HAT = 'hat'
+var duration = 500
 
-const hasClass =
-  (ele, cl) =>
-    ele.className.indexOf(cl) > -1
+function hasCl(e, cl) {
+  return e.className.indexOf(cl) > -1
+}
 
-const getById =
-  id =>
-    d.getElementById(id)
+function addCl(e, cl) {
+  if (!hasCl(e, cl)) {
+    e.className = e.className ? e.className + ' ' + cl : cl
+  }
+}
 
-const onClick =
-  evt => {
-    const hero = getById(HERO)
-    if (hasClass(hero, ANIMATED)) {
-      return
+function rmCl(e, cl) {
+  if (hasCl(e, cl)) {
+    if (e.className.indexOf(' ' + cl) > -1) {
+      cl = ' ' + cl
     }
-
-    hero.classList.add(ANIMATED)
-
-    setTimeout(animate, animDuration)
+    e.className = e.className.replace(cl, '')
   }
+}
 
-const resetAnimation =
-  () =>
-    getById(HERO).classList.remove(ANIMATED)
+function $(id) {
+  return document.getElementById(id)
+}
 
-const animate =
-  () => {
-    const hero = getById(HERO)
-    hero.innerHTML = hero.innerHTML
-
-    getById(HAT).addEventListener('click', onClick)
-
-    setTimeout(resetAnimation, animDuration * 2)
+function click(evt) {
+  var hero = $(HERO)
+  if (!hasCl(hero, ANIMATED)) {
+    addCl(hero, ANIMATED)
+    setTimeout(animate, duration)
   }
+}
 
-setTimeout(getById(HAT).addEventListener('click', onClick), animDuration)
+function resetAnim() {
+  rmCl($(HERO), ANIMATED)
+}
+
+function animate() {
+  var hero = $(HERO)
+  hero.innerHTML = hero.innerHTML
+  $(HAT).addEventListener('click', click)
+  setTimeout(resetAnim, duration * 2)
+}
+
+setTimeout($(HAT).addEventListener('click', click), duration)
