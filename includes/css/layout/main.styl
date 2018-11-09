@@ -2,6 +2,7 @@
   box-sizing border-box
 
 body
+  color $hero-text-color
   font-family 'Segoe UI', 'Lucida Grande', Ubuntu, Arial, sans-serif
   font-size 15px
   line-height 1.2
@@ -24,16 +25,18 @@ img
   max-height 100%
   max-width 100%
 
-main
+.main
   line-height 1.2
   margin 0 auto
   width 90%
+  padding-bottom 5em
 
-  section
-    color $hero-text-color
-    margin 10vh 0 0
-    min-height 100vh
+  .section
+    padding 1em 0
     text-align center
+    &.full
+      padding 10vh 0
+      min-height 100vh
 
     &.animated
       animation-delay 300ms
@@ -49,7 +52,7 @@ main
     .branding
       h1
         animation-delay 800ms
-        margin .5em 0
+        margin .5em 0li
 
       h2
         margin 0 0 1em
@@ -63,6 +66,63 @@ main
           &:last-child
             animation-delay 1.2s
 
+    ul.nav
+      li
+        animation-name fade-in
+        font-size 1.2em
+        opacity 0
+
+        &:first-child
+          animation-delay 1.3s
+        &:nth-child(2)
+          animation-delay 1.4s
+        &:nth-child(3)
+          animation-delay 1.5s
+        &:nth-child(4)
+          animation-delay 1.6s
+        &:nth-child(5)
+          animation-delay 1.7s
+        &:nth-child(6)
+          animation-delay 1.8s
+
+a
+  color $hero-text-color
+  text-decoration none
+
+  &:hover
+    text-decoration underline
+
+ul.nav
+  li
+    display block
 
 .impressum
   font-size .8em
+
+.footer
+  background-color $hero-text-color
+  bottom 0
+  color $white
+  font-size .8em
+  left 0
+  padding .5em
+  position fixed
+  text-align center
+  top auto
+  width 100%
+
+  a
+    color $white
+
+    :hover
+      text-decoration underline
+
+  ul.social-links
+    float right
+
+    li
+      float left
+
+// utilities
+.block
+  margin 2em 0
