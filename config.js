@@ -1,14 +1,17 @@
 const path = require('path')
 
-const { transpilers } = require('magic-build')
+const HTML = require('@mspg/transpile-pug')
+const CSS = require('@mspg/transpile-stylus')
+// const JS = require('@mspg/transpile-babel')
 
 const year = new Date().getFullYear()
 
 module.exports = {
   TRANSPILERS: {
-    HTML: transpilers.PUG,
-    CSS: transpilers.STYLUS,
-    JS: transpilers.BROWSERIFY,
+    HTML,
+    CSS,
+    // JS,
   },
   year,
+  WEB_ROOT: 'https://wizardsatwork.github.io/wizardsatwork.at/',
 }
