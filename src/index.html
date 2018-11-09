@@ -1,20 +1,11 @@
 extends /page.pug
 
 block content
-  section#hero
-    include /wnw-logo.svg
+  #hero.section
+    include /hero.pug
 
-    .branding
-      h1.anim wizards @ work
-
-      h2
-        span.anim magically
-        | &nbsp;
-        span.anim shifting
-        | &nbsp;
-        span.anim paradigms
-
-  section.about
+  #about.section
+    h2 Wizards and Witches @ Work
     p.
       we are a tribe of makers, programmers, engineers, philosophers, activists, hackers, artists, clowns, and scientists.
     p.
@@ -22,30 +13,42 @@ block content
     p.
       magically shifting paradigms.
 
-    h3 founders
-    p
-      img(alt='founders' src='/img/team.jpg')
+    .projects
+      h2 Projects
+      ul
+        li
+          a(href='https://magicshifter.net')
+          img(src=`${WEB_ROOT}img/magicshifter.jpg`)
+          h3: a(href='https://magicshifter.net') MagicShifter
+          .description
+            p The MagicShifter 3000 is an open source hardware gadget for RGB lighting, gaming and POV (persistence of vision) applications.
+            p By combining its accelerometer with 16 bright RGB LEDs you can draw images “into the air”.
+            p It’s only 103x27x13mm so it fits in every pocket.
+            p The MagicShifter 3000 is the latest and most advanced addition to the MagicShifter series.
 
-  section.impressum
-    h2 Impressum
+        li
+          img(src=`${WEB_ROOT}img/evocell.png`)
+          h3 Evocell
+          .description
+            p EvoCell is a game engine based on the evolutionary cycles of cellular automata.
+            p This allows us to simulate a world of constant change through evolution and interaction of it's smallest parts, the pixels.
+            p By using simple mathemagics, every pixel in our games is conjured as a consciousness which bases decisions on it's surroundings.
+            p Multiple pixels can band together and become a multi-pixel life form, which then again, has awareness of it's environment.
 
-    h3 Wizards at Work GmbH
-    h4 IT-Dienstleistungen, Softwareentwicklung
+        li
+          img(src="/img/hexpaper.jpg")
+          h3 HexPaper
+          .description
+            p We originally created this notebook blocks since a lot of our work on evocell involves hex grids.
+            p Some of our friends started to use them for their artistic work.
+            p When our role playing groups started using the block to draw maps we realized, that there is a small, but dedicated, market for this kind of product.
+            p Now you can get your own HexPaper too.
 
-    p ATU 71 16 08 06
-    p FN: 454377b
-    p FB-Gericht: Wien
+  #contact.section
+    h3 Social
+    ul
+      li facebook
+      li twitter
+      li ???
 
-    p Firmensitz:
-    p Stolzenthalergasse 6/1A + 2A
-    p 1080 Wien / Austria
-
-    p
-      span= 'Email: '
-      a(href='mailto:office@wizardsatwork.at') office@wizardsatwork.at
-    p Mitglied der WKÖ, WKW
-
-    h3 Berufsrecht:
-    p= 'Gewerbeordnung: '
-    p
-      a(href='http://www.ris.bka.gv.at' target='fnord') Bezirkshauptmannschaft Wien
+    div also email...
