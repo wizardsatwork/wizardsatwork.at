@@ -4,7 +4,7 @@ ol, ul{list-style:none;}
 table{border-collapse:separate; border-spacing:0; vertical-align:middle;}
 caption, th, td{text-align:left; font-weight:normal; vertical-align:middle;}
 a img{border:none;}
-svg#hat{height:30vw; max-height:30vh; max-width:30vh; width:30vw;}
+svg#hat{width:60%;}
 svg#hat .star{-webkit-transform:rotate(0deg); transform:rotate(0deg); -webkit-transform-origin:center; transform-origin:center; transform-box:fill-box;}
 svg#hat .p1, svg#hat .p2, svg#hat .p3, svg#hat .p4, svg#hat .p5, svg#hat .wand{-webkit-animation-duration:400ms; animation-duration:400ms; -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards; -webkit-animation-name:fade-in; animation-name:fade-in; opacity:0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter:alpha(opacity=0);}
 svg#hat .p1{-webkit-animation-delay:100ms; animation-delay:100ms; fill:url("#g2");}
@@ -18,32 +18,29 @@ svg#hat stop[offset="0"]{stop-color:#4527a0;}
 svg#hat stop[offset="1"]{stop-color:#8f7dc6;}
 .animated svg#hat .star{-webkit-animation-delay:0ms; animation-delay:0ms; -webkit-animation-duration:500ms; animation-duration:500ms; -webkit-animation-iteration-count:1; animation-iteration-count:1; -webkit-animation-name:spin; animation-name:spin; -webkit-animation-timing-function:linear; animation-timing-function:linear;}
 *{-webkit-box-sizing:border-box; box-sizing:border-box;}
-body{color:#4527a0; font-family:'Segoe UI', 'Lucida Grande', Ubuntu, Arial, sans-serif; font-size:15px; line-height:1.2;}
-h1, h2{margin:0 0 1em;}
-h1{font-size:1.5em;}
-h2{font-size:1.2em;}
-h3{font-size:1.3em; margin:1em 0 0.5em;}
+body{color:#4527a0; font-family:'Ubuntu Condensed', 'Segoe UI', roboto, 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:15px; line-height:1.2; max-width:1200px; margin:0 auto;}
+h1, h2{margin:0 0 0.5em;}
+h1{font-size:1.2em; font-weight:600;}
+h2{font-size:1.1em;}
 img{max-height:100%; max-width:100%;}
-.main{line-height:1.2; margin:0 auto; width:90%; padding-bottom:5em;}
-.main .section{padding:1em 0; text-align:center;}
-.main .section.full{padding:10vh 0; min-height:100vh;}
-.main .section.animated{-webkit-animation-delay:300ms; animation-delay:300ms; -webkit-animation-duration:400ms; animation-duration:400ms; -webkit-animation-name:fade-out; animation-name:fade-out; -webkit-animation-timing-function:linear; animation-timing-function:linear;}
-.main .section h1, .main .section h2 span{-webkit-animation-name:fade-in; animation-name:fade-in; opacity:0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter:alpha(opacity=0);}
-.main .section .branding h1{-webkit-animation-delay:800ms; animation-delay:800ms; margin:0.5em 0li;}
-.main .section .branding h2{margin:0 0 1em;}
-.main .section .branding h2 span{-webkit-animation-delay:1.1s; animation-delay:1.1s;}
-.main .section .branding h2 span:first-child{-webkit-animation-delay:1s; animation-delay:1s;}
-.main .section .branding h2 span:last-child{-webkit-animation-delay:1.2s; animation-delay:1.2s;}
-.main .section ul.nav li{-webkit-animation-name:fade-in; animation-name:fade-in; font-size:1.2em; opacity:0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter:alpha(opacity=0);}
-.main .section ul.nav li:first-child{-webkit-animation-delay:1.3s; animation-delay:1.3s;}
-.main .section ul.nav li:nth-child(2){-webkit-animation-delay:1.4s; animation-delay:1.4s;}
-.main .section ul.nav li:nth-child(3){-webkit-animation-delay:1.5s; animation-delay:1.5s;}
-.main .section ul.nav li:nth-child(4){-webkit-animation-delay:1.6s; animation-delay:1.6s;}
-.main .section ul.nav li:nth-child(5){-webkit-animation-delay:1.7s; animation-delay:1.7s;}
-.main .section ul.nav li:nth-child(6){-webkit-animation-delay:1.8s; animation-delay:1.8s;}
+.main{line-height:1.2; padding-bottom:5em;}
+.animated{-webkit-animation-delay:300ms; animation-delay:300ms; -webkit-animation-duration:400ms; animation-duration:400ms; -webkit-animation-name:fade-out; animation-name:fade-out; -webkit-animation-timing-function:linear; animation-timing-function:linear;}
+#hero h1, #hero h2 span{-webkit-animation-name:fade-in; animation-name:fade-in; opacity:0; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter:alpha(opacity=0);}
+#hero h1{-webkit-animation-delay:800ms; animation-delay:800ms; margin:0.5em 0li;}
+#hero h2{margin:0 0 1em;}
+#hero h2 span{-webkit-animation-delay:1.1s; animation-delay:1.1s;}
+#hero h2 span:first-child{-webkit-animation-delay:1s; animation-delay:1s;}
+#hero h2 span:last-child{-webkit-animation-delay:1.2s; animation-delay:1.2s;}
 a{color:#4527a0; text-decoration:none;}
 a:hover{text-decoration:underline;}
+a.button{background-color:#4527a0; color:#fefefe; display:inline-block; padding:0.5em;}
+p{margin:1em 0;}
+.annotated p{margin:0;}
 ul.nav li{display:block;}
+.projects{margin:2em 0;}
+.projects .project{background-color:#9c9788; border:1px solid #4527a0; margin:1em 0; width:100%;}
+.projects .project img{width:100%;}
+.projects .project .description{padding:1em;}
 .impressum{font-size:0.8em;}
 .footer{background-color:#4527a0; bottom:0; color:#fefefe; font-size:0.8em; left:0; padding:0.5em; position:fixed; text-align:center; top:auto; width:100%;}
 .footer a{color:#fefefe;}
@@ -51,8 +48,16 @@ ul.nav li{display:block;}
 .footer ul.social-links{float:right;}
 .footer ul.social-links li{float:left;}
 .block{margin:2em 0;}
+.hex{display:block; margin:0 auto; position:relative; min-height:250px; min-width:250px; max-width:500px; max-height:500px; width:90vw; height:90vw;}
+.hex .hex__svg{position:absolute; width:100%; height:100%;}
+.hex .hex__content{position:relative; text-align:center; width:60%; height:60%; top:20%; left:20%;}
+.hex .hex__content.annotated{color:#9c9788;}
+.hex .hex__content.annotated p{margin:0.5em 0;}
+.hex .hex__content.annotated h2{margin:1em 0; font-weight:600;}
+.hex .hex__content .add{display:none;}
 @media (min-width:600px){main section{font-size:2vw; }}
-@media (min-width:700px){body{font-size:2vw; }}
+@media (min-width:700px){body{font-size:18px; }}
+@media (min-width:800px){.projects{display:inline-block; } .projects .project{float:left; width:31%; margin:0 1%; }}
 .anim{-webkit-animation-duration:0.7s; animation-duration:0.7s; -webkit-animation-fill-mode:forwards; animation-fill-mode:forwards; -webkit-animation-iteration-count:1; animation-iteration-count:1; -webkit-animation-timing-function:ease-out; animation-timing-function:ease-out;}
 @-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg); transform:rotate(360deg); }}
 @keyframes spin{100%{-webkit-transform:rotate(360deg); transform:rotate(360deg); }}
