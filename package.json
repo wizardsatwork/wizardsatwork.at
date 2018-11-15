@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "mspg build",
-    "build": "npm run clean && NODE_ENV=production mspg build noWatch noServe zip",
+    "build": "NODE_ENV=production mspg build noWatch noServe zip",
     "build:serve": "NODE_ENV=production mspg build noWatch zip",
     "clean": "rm -rf public",
     "lint:css": "mspg lint css",
