@@ -3,10 +3,10 @@ global-reset()
 
 @import '/variables'
 
-@import '/wnw-logo'
+@import '/lib/wnw-logo'
 
 @import '/layout/main'
 @import '/layout/tablet'
 @import '/layout/desktop'
 
-@import '/transitions'
+@import '/lib/transitions'

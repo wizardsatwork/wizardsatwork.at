@@ -1,8 +1,11 @@
-<svg height="628" width="726">
-  <polygon 
-    points="723,314 543,625 183,625 3,314 183,2 543,2 723,314" 
-    fill="white" 
-    stroke="black" 
-    stroke-width="4"
+<svg 
+  class="hex__svg"
+  viewBox="0 0 724.61981 627"
+>
+  <path 
+    fill="#fff" 
+    stroke="#000" 
+    stroke-width="1" 
+    d="M182.31 625l-180-311 180-312h360l180 312-180 311z"
   />
 </svg>

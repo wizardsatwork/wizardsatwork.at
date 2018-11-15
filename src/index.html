@@ -1,53 +1,55 @@
 extends /page.pug
 
 block content
-  #hero.section
-    include /hero.pug
+  .hex 
+    include /hex.svg
+    #hero.hex__content
+      include /wnw-logo.svg
+      h1.anim WIZARDS @ WORK
+      h2 
+        span.anim magically 
+        span.anim shifting 
+        span.anim paradigms
 
-  #about.section
-    h2 Wizards and Witches @ Work
-    p we are a tribe of makers, programmers, engineers, philosophers, activists, hackers, artists, clowns, and scientists.
-    p we are wizards and witches at work,
-    p magically shifting paradigms.
+  .hex
+    include /hex.svg
+    .hex__content 
+      img(src=`${WEB_ROOT}img/evocell.png` alt="EvoCell")
+      p EvoCell is a game engine based on the evolutionary cycles of cellular automata.
 
-    .projects
-      h2 Projects
-      ul
-        li.project
-          a(href='https://magicshifter.net')
-            img(src=`${WEB_ROOT}img/magicshifter.jpg`)
-          h3
-            a(href='https://magicshifter.net') MagicShifter
-          .description
-            p.
-              The MagicShifter 3000, the latest and most advanced addition to the MagicShifter series, 
-              is an open source hardware gadget for RGB lighting, gaming and POV (persistence of vision) applications.
-            p Using it's accelerometer and 16 bright RGB LEDs you can draw images “into thin air”.
-            p It’s only 103x27x13mm so it fits in every pocket.
 
-        li.project
-          img(src=`${WEB_ROOT}img/evocell.jpg`)
-          h3 Evocell
-          .description
-            p EvoCell is a game engine based on the evolutionary cycles of cellular automata.
-            p This allows us to simulate a world of constant change through evolution and interaction of it's smallest parts, the pixels.
-            p Using mathemagics, every pixel in our games is conjured as a consciousness which bases decisions on it's surroundings.
-            p Multiple pixels can band together and become a multi-pixel life form, which then again, has awareness of it's environment.
+  .hex
+    include /hex.svg
+    .hex__content
+      a(href="https://magicshifter.net")
+        img(src=`${WEB_ROOT}img/magicshifter.png` alt="MagicShifter")
+        p.
+          The MagicShifter 3000 is an open source hardware gadget 
+          for lighting, gaming and persistence of vision applications.
 
-        li.project
-          img(src="/img/hexpaper.jpg")
-          h3 HexPaper
-          .description
-            p We originally created this notebook blocks since a lot of our work on evocell involves hex grids.
-            p Some of our friends started to use them for their artistic work.
-            p When our role playing groups started using the block to draw maps we realized, that there is a small, but dedicated, market for this kind of product.
-            p Now you can get your own HexPaper too.
+      a.button(href="https://hackerspaceshop.com/products/magicshifter3000") 
+        div Get your MagicShifter 
+        div @Hackerspaceshop
 
-  #contact.section
-    h3 Social
-    ul
-      li facebook
-      li twitter
-      li ???
+  .hex 
+    include /hex.svg
+    .hex__content.annotated
+      p we are a tribe of 
+      p makers, programmers, 
+      p engineers, philosophers, 
+      p activists, hackers, artists, 
+      p clowns, and scientists.
+      
+      h2 
+        p we are wizards and 
+        p witches at work
 
-    div also email...
+      a(href='/impressum') impressum
+
+      ul.social
+        li
+          a(href="https://facebook.com") fb
+        li
+          a(href="https://facebook.com") tw
+        li
+          a(href="https://facebook.com") yt
