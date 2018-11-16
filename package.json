@@ -30,13 +30,13 @@
     "url": "https://github.com/wizardsatwork/wizardsatwork.at.git"
   },
   "scripts": {
-    "start": "mspg build",
-    "build": "NODE_ENV=production mspg build noWatch noServe zip",
-    "build:serve": "NODE_ENV=production mspg build noWatch zip",
+    "start": "mspg build serve watch",
+    "build": "NODE_ENV=production mspg build zip",
+    "build:serve": "NODE_ENV=production mspg build zip serve",
     "clean": "rm -rf public",
     "lint:css": "mspg lint css",
     "lint:html": "mspg lint html",
-    "publish": "NODE_ENV=production mspg build zip publish noWatch noServe"
+    "publish": "NODE_ENV=production mspg build zip publish"
   },
   "devDependencies": {
     "@mspg/core": "github:mspg/core",
