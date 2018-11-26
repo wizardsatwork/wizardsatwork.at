@@ -13,5 +13,4 @@ module.exports = {
     // JS,
   },
   year,
-  WEB_ROOT: 'https://wizardsatwork.github.io/wizardsatwork.at/',
 }
