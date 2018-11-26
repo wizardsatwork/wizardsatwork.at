@@ -32,5 +32,14 @@ html(lang='en')
       block content
         div no content
 
+    .social
+      ul
+        li
+          a(href="https://www.facebook.com/wizardsatwork" target="_blank" rel="noopener noreferrer")
+            include /social/fb.svg
+        li
+          a(href="https://twitter.com/wizardsatwork" target="_blank" rel="noopener noreferrer")
+            include /social/tw.svg
+
     block scripts
       script(src=`${WEB_ROOT}js/index.js`)

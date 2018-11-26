@@ -1,13 +1,67 @@
 @media (min-width: 700px)
   body
-    font-size 18px
-
+    font-size 15px
 
 @media (min-width: 800px)
-  .projects
-    display inline-block
+  .main
+    margin 5em auto 0
+    width 800px
+    position relative
 
-    .project
-      float left
-      width 31%
-      margin 0 1%
+  .hex
+    position absolute
+    width 300px
+    height 300px
+    max-width inherit
+    max-height inherit
+
+    &.hero
+      left 50%
+      margin 0 0 0 -150px
+
+    &.evocell
+      top 145px
+
+    &.magicshifter
+      top 145px
+      right 0
+      left auto
+
+    &.about
+      top 290px
+      margin 0 0 0 -150px
+      left 50%
+
+    &.hexpaper
+      position absolute
+      top 480px
+      right 75px
+
+@media (min-width: 1100px)
+  .main
+    margin 5em auto 0
+    width 1100px
+
+  .add
+    display inline
+
+  .hex
+    width 400px
+    height 400px
+
+    &.hero
+      margin 0 0 0 -200px
+
+    &.evocell
+      top 200px
+
+    &.magicshifter
+      top 200px
+
+    &.about
+      top 400px
+      margin 0 0 0 -200px
+
+    &.hexpaper
+      top 666px
+      right 120px

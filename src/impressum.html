@@ -1,10 +1,7 @@
 extends /page.pug
 
 block content
-  #hero.section.compact
-    include /hero.pug
-
-  #impressum.section
+  .impressum.section
     .block
       h2 Magic @ Work
       p.
@@ -36,4 +33,4 @@ block content
       h3 Berufsrecht:
       p= 'Gewerbeordnung: '
       p
-        a(href='http://www.ris.bka.gv.at' target='fnord') Bezirkshauptmannschaft Wien
+        a(href='http://www.ris.bka.gv.at' target='fnord' rel="noopener noreferrer") Bezirkshauptmannschaft Wien

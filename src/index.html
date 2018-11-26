@@ -1,37 +1,35 @@
 extends /page.pug
 
 block content
-  .hex 
+  .hex.hero
     include /hex.svg
     #hero.hex__content
       include /wnw-logo.svg
       h1.anim WIZARDS @ WORK
       h2 
-        span.anim magically 
-        span.anim shifting 
-        span.anim paradigms
+        span.anim= 'magically '
+        span.anim= 'shifting '
+        span.anim= 'paradigms '
 
-  .hex
+  .hex.evocell
     include /hex.svg
     .hex__content 
       img(src=`${WEB_ROOT}img/evocell.png` alt="EvoCell")
       p EvoCell is a game engine based on the evolutionary cycles of cellular automata.
 
-
-  .hex
+  .hex.magicshifter
     include /hex.svg
     .hex__content
-      a(href="https://magicshifter.net")
+      a(href="https://magicshifter.net" target="_blank" rel="noopener noreferrer")
         img(src=`${WEB_ROOT}img/magicshifter.png` alt="MagicShifter")
-        p.
-          The MagicShifter 3000 is an open source hardware gadget 
-          for lighting, gaming and persistence of vision applications.
+        p
+          span The MagicShifter 3000 is an open source hardware gadget 
+          span.add for lighting, gaming and persistence of vision applications.
 
-      a.button(href="https://hackerspaceshop.com/products/magicshifter3000") 
-        div Get your MagicShifter 
-        div @Hackerspaceshop
+      a.button(href="https://hackerspaceshop.com/products/magicshifter3000" target="_blank" rel="noopener noreferrer")
+        div Get your MagicShifter now
 
-  .hex 
+  .hex.about
     include /hex.svg
     .hex__content.annotated
       p we are a tribe of 
@@ -46,10 +44,7 @@ block content
 
       a(href='/impressum') impressum
 
-      ul.social
-        li
-          a(href="https://facebook.com") fb
-        li
-          a(href="https://facebook.com") tw
-        li
-          a(href="https://facebook.com") yt
+  .hex.small.hexpaper
+    .container
+      include /hex.svg
+      a.hex__link(href="https://hexpaper.wizardsatwork.at") EvoCell Hexpaper
