@@ -5,8 +5,6 @@ global-reset()
 
 @import '/lib/wnw-logo'
 
-@import '/layout/main'
-@import '/layout/tablet'
-@import '/layout/desktop'
+@import '/layout'
 
 @import '/lib/transitions'
