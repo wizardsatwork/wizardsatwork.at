@@ -13,4 +13,5 @@ module.exports = {
     // JS,
   },
   year,
+  IGNORE_EXTENSIONS: ['ai', 'psd', 'xcf'],
 }
