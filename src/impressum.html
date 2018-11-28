@@ -3,7 +3,10 @@ extends /page.pug
 block content
   .impressum.section
     .block
-      h2 Wizards @ Work
+      h2
+        a(href=WEB_ROOT)
+          include /wnw-logo.svg
+          span Wizards @ Work
       p.
         we are a tribe of makers, programmers, engineers, philosophers, activists, hackers, artists, clowns, and scientists.
       p.
