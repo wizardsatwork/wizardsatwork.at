@@ -43,6 +43,7 @@ ul.nav li{display:block;}
 .projects .project img{width:100%;}
 .projects .project .description{padding:1em;}
 .impressum{margin:0 auto;width:80%;min-width:250px;}
+.impressum #hat{width:30%;}
 .footer{background-color:#4527a0;bottom:0;color:#fefefe;font-size:0.8em;left:0;padding:0.5em;position:fixed;text-align:center;top:auto;width:100%;}
 .footer a{color:#fefefe;}
 .footer a:hover{text-decoration:underline;}
