@@ -14,4 +14,5 @@ module.exports = {
   },
   year,
   IGNORE_EXTENSIONS: ['ai', 'psd', 'xcf'],
+  WEB_ROOT: 'https://wizardsatwork.github.io/wizardsatwork.at',
 }
