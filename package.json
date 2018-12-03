@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@mspg/core": "github:mspg/core",
-    "@mspg/transpile-pug": "github:mspg/transpile-pug",
-    "@mspg/transpile-stylus": "github:mspg/transpile-stylus"
+    "@mspg/transpile-stylus": "github:mspg/transpile-stylus",
+    "@mspg/transpile-posthtml": "github:mspg/transpile-posthtml"
   }
 }
