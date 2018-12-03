@@ -34,7 +34,7 @@ img{max-height:100%;max-width:100%;}
 .add{display:none;}
 a{color:#4527a0;text-decoration:none;}
 a:hover{text-decoration:underline;}
-a.button{background-color:#4527a0;color:#fefefe;display:inline-block;padding:0.5em;}
+a.button{background-color:#4527a0;color:#fefefe;display:block;padding:0.5em;margin:0.5em;}
 p{margin:1em 0;}
 .annotated p{margin:0;}
 ul.nav li{display:block;}
