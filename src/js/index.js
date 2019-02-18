@@ -45,4 +45,7 @@ function animate() {
   setTimeout(resetAnim, duration * 2)
 }
 
-setTimeout($(HAT).addEventListener('click', click), duration)
+var hat = $(HAT)
+if (hat) {
+  setTimeout(hat.addEventListener('click', click), duration)
+}

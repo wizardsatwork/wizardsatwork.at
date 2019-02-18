@@ -23,6 +23,10 @@
     {
       "name": "litto",
       "github": "mslitto"
+    },
+    {
+      "name": "daniel safar",
+      "github": "n1c3"
     }
   ],
   "repository": {
@@ -40,7 +44,7 @@
   },
   "devDependencies": {
     "@mspg/core": "github:mspg/core",
-    "@mspg/transpile-stylus": "github:mspg/transpile-stylus",
-    "@mspg/transpile-posthtml": "github:mspg/transpile-posthtml"
+    "@mspg/transpile-posthtml": "github:mspg/transpile-posthtml",
+    "@mspg/transpile-stylus": "github:mspg/transpile-stylus"
   }
 }
