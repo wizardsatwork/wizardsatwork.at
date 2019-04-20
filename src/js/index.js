@@ -28,7 +28,8 @@ function $(id) {
 
 function click(evt) {
   var hero = $(HERO)
-  if (!hasCl(hero, ANIMATED)) {
+
+  if (hero && !hasCl(hero, ANIMATED)) {
     addCl(hero, ANIMATED)
     setTimeout(animate, duration)
   }
@@ -41,7 +42,8 @@ function resetAnim() {
 function animate() {
   var hero = $(HERO)
   hero.innerHTML = hero.innerHTML
-  $(HAT).addEventListener('click', click)
+  var hat = $(HAT)
+  hat.addEventListener('click', click)
   setTimeout(resetAnim, duration * 2)
 }
 
