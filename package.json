@@ -36,7 +36,7 @@
   "scripts": {
     "start": "mspg build serve watch",
     "build": "NODE_ENV=production mspg build zip",
-    "build:serve": "NODE_ENV=production mspg build zip serve",
+    "prod": "NODE_ENV=production mspg build zip serve",
     "clean": "rm -rf public",
     "lint:css": "mspg lint css",
     "lint:html": "mspg lint html",
