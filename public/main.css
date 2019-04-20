@@ -52,6 +52,7 @@ ul.nav li{display:block;}
 .social ul li{float:left;margin:0.5em 0.2em;}
 .social svg{height:1.5em;width:1.5em;fill:#666;}
 .block{margin:2em 0;}
+.hex__container{position:relative;}
 .hex{display:block;margin:0 auto;position:relative;min-height:250px;min-width:250px;max-width:400px;max-height:400px;width:90vw;height:90vw;}
 .hex.small{text-align:center;min-width:inherit;min-height:inherit;width:auto;height:auto;}
 .hex.small .container{display:inline-block;}
@@ -73,4 +74,4 @@ ul.nav li{display:block;}
 @keyframes fade-in{from{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);} to{opacity:1;-ms-filter:none;-webkit-filter:none;filter:none;}}
 @-webkit-keyframes fade-out{from{opacity:1;-ms-filter:none;-webkit-filter:none;filter:none;} to{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);}}
 @keyframes fade-out{from{opacity:1;-ms-filter:none;-webkit-filter:none;filter:none;} to{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0);}}
-/*# sourceMappingURL=stylus.css.map */
+/*# sourceMappingURL=main.css.map */
