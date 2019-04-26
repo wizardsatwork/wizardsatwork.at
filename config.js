@@ -1,20 +1,26 @@
-const path = require('path')
-
-const HTML = require('@mspg/transpile-posthtml')
-const CSS = require('@mspg/transpile-stylus')
-// const JS = require('@mspg/transpile-babel')
-
-const year = new Date().getFullYear()
+const textColor = '#4527A0'
 
 module.exports = {
-  TRANSPILERS: {
-    HTML,
-    CSS,
-    // JS,
-  },
-  year,
-  IGNORE_EXTENSIONS: ['ai', 'psd', 'xcf'],
-  WEB_ROOT: '/',
+  ROOT: 'src',
+  THEME: 'wnw',
 
-  OUT_DIR: path.join(process.cwd(), 'docs'),
+  WEB_ROOT: '/wizardsatwork.at/',
+
+  DIR: {
+    PUBLIC: 'docs',
+  },
+
+  THEME_VARS: {
+    black: '#010101',
+    white: '#FEFEFE',
+    textColor,
+    backgroundColor: '#010101',
+    maxWidth: '1200px',
+    fill_1: '#4527A0',
+    fill_2: '#8F7DC6',
+    subtleColor: '#9c9788',
+    lessSubtleColor: '#666666',
+  },
+
+  FOR_DEATH_CAN_NOT_HAVE_HIM: true,
 }
