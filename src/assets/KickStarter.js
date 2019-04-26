@@ -9,7 +9,7 @@ KickStarter.style = {
   '.KickStarter': {
     width: '90%',
     textAlign: 'center',
-    margin: '4em auto 0',
+    margin: '1em auto 0',
   },
 }
 

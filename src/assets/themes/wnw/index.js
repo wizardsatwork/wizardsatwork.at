@@ -262,10 +262,6 @@ const theme = vars => ({
       position: 'relative',
     },
 
-    '.kickstarter': {
-      margin: '0 auto',
-    },
-
     'footer.main': {
       textAlign: 'left',
       position: 'fixed',
