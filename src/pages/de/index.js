@@ -15,13 +15,8 @@ const View = (state, actions) => [
       div({ class: 'hex__content' }, [
         img({ src: '/img/evocell.png', alt: 'EvoCell' }),
         p([
-          span([
-            'EvoCell ist ein Abenteuer in einem',
-            ' auf zellulären Automaten basierenden',
-          ]),
-          span({ class: 'add' }, [
-            ' und mit einem graphischen Spieleeditor erschaffenen',
-          ]),
+          span(['EvoCell ist ein Abenteuer in einem', ' auf zellulären Automaten basierenden']),
+          span({ class: 'add' }, [' und mit einem graphischen Spieleeditor erschaffenen']),
           span(' lebenden Universum'),
         ]),
         Link(
@@ -29,7 +24,7 @@ const View = (state, actions) => [
             class: 'button',
             to: 'https://www.facebook.com/EvoCellEngine/',
           },
-          'Jetzt anmelden',
+          'Jetzt mitspielen',
         ),
       ]),
     ]),
