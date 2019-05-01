@@ -4,9 +4,7 @@ module.exports = {
   ROOT: 'src',
   THEME: 'wnw',
 
-  DIR: {
-    PUBLIC: 'docs',
-  },
+  PUBLIC: 'docs',
 
   THEME_VARS: {
     black: '#010101',
