@@ -15,17 +15,19 @@
     "type": "git",
     "url": "git+https://github.com/wizardsatwork/wizardsatwork.at.git"
   },
-  "keywords": [],
-  "author": "Jascha Ehrenreich",
-  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/wizardsatwork/wizardsatwork.at/issues"
   },
-  "homepage": "https://github.com/wizardsatwork/wizardsatwork.at#readme",
+  "homepage": "https://wizardsatwork.at",
   "devDependencies": {
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.10"
+    "@magic-modules/languageswitch": "github:magic-modules/languageswitch",
+    "@magic/test": "0.0.12"
   },
+  "author": "Wizards & Witches",
+  "description": "homepage of the wizards at work gmbh",
+  "keywords": [],
+  "license": "AGPL-3.0",
   "contributors": [
     {
       "name": "jascha ehrenreich",
@@ -50,9 +52,10 @@
     {
       "name": "daniel safar",
       "github": "n1c3"
+    },
+    {
+      "name": "jay vaughan",
+      "github": "seclorum"
     }
-  ],
-  "dependencies": {
-    "@magic-modules/languageswitch": "github:magic-modules/languageswitch"
-  }
+  ]
 }
