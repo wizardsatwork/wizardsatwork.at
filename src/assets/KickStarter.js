@@ -6,11 +6,9 @@ const KickStarter = () =>
   ])
 
 KickStarter.style = {
-  '.KickStarter': {
-    width: '90%',
-    textAlign: 'center',
-    margin: '1em auto 0',
-  },
+  width: '90%',
+  textAlign: 'center',
+  margin: '1em auto 0',
 }
 
 module.exports = KickStarter

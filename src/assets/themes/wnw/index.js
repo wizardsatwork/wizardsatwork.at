@@ -116,28 +116,6 @@ const theme = vars => ({
     },
   },
 
-  '.social': {
-    textAlign: 'center',
-    position: 'absolute',
-    top: '1em',
-    right: '1em',
-    left: 'auto',
-
-    ul: {
-      display: 'inline-block',
-
-      li: {
-        float: 'left',
-        margin: '.5em .2em',
-      },
-    },
-    svg: {
-      height: '1.5em',
-      width: '1.5em',
-      fill: vars.lessSubtleColor,
-    },
-  },
-
   'footer.main': {
     padding: '0 0 1em',
     color: vars.subtleColor,

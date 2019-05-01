@@ -1,7 +1,7 @@
 const Hex = () =>
   svg(
     {
-      class: 'hex__svg',
+      class: 'Hex hex__svg',
       viewBox: '0 0 725 627',
     },
     path({
@@ -10,7 +10,7 @@ const Hex = () =>
   )
 
 Hex.style = vars => ({
-  '.hex__svg': {
+  '.Hex': {
     position: 'absolute',
     width: '100%',
     height: '100%',
@@ -19,7 +19,7 @@ Hex.style = vars => ({
     strokeWidth: 1,
   },
 
-  '.small .hex__svg': {
+  '.small .Hex': {
     fill: '#444444',
     stroke: '#444444',
     width: '3em',

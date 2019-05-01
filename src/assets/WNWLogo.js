@@ -1,5 +1,5 @@
 const WNWLogo = (state, actions) =>
-  div({ id: 'hero', class: 'hex__content' }, [
+  div({ id: 'hero', class: 'WNWLogo hex__content' }, [
     Hat,
 
     h1({ class: 'anim' }, 'WIZARDS @ WORK'),
@@ -11,7 +11,7 @@ const WNWLogo = (state, actions) =>
   ])
 
 WNWLogo.style = vars => ({
-  '#hero': {
+  '.WNWLogo': {
     'h1, h2 span': {
       animationName: 'fade-in',
       opacity: 0,
