@@ -20,8 +20,8 @@
   },
   "homepage": "https://wizardsatwork.at",
   "devDependencies": {
+    "@magic-modules/language-switch": "github:magic-modules/language-switch",
     "@magic/core": "github:magic/core",
-    "@magic-modules/languageswitch": "github:magic-modules/languageswitch",
     "@magic/test": "0.0.12"
   },
   "author": "Wizards & Witches",
