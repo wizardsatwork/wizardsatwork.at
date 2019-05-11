@@ -4,6 +4,9 @@ module.exports = {
   ROOT: 'src',
   THEME: 'wnw',
 
+  WEB_ROOT: '/',
+  URL: 'wizardsatwork.at',
+
   PUBLIC: 'docs',
 
   THEME_VARS: {
