@@ -43,7 +43,7 @@ const theme = vars => ({
     maxHeight: '100%',
     maxWidth: '100%',
   },
-  '#magic': {
+  '#Magic': {
     lineHeight: '1.2',
   },
   '.animated': {
@@ -116,7 +116,7 @@ const theme = vars => ({
     },
   },
 
-  'footer.main': {
+  '.Footer': {
     padding: '0 0 1em',
     color: vars.subtleColor,
     textAlign: 'center',
@@ -234,13 +234,13 @@ const theme = vars => ({
       display: 'none',
     },
 
-    '#magic': {
+    '#Magic': {
       margin: '5em auto 0',
       width: '800px',
       position: 'relative',
     },
 
-    'footer.main': {
+    '.Footer': {
       textAlign: 'left',
       position: 'fixed',
       left: '5px',
@@ -296,11 +296,7 @@ const theme = vars => ({
       },
     },
 
-    '.add': {
-      display: 'inherit',
-    },
-
-    '#magic': {
+    '#Magic': {
       margin: '1em auto 0',
       width: '1100px',
     },
