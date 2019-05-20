@@ -22,7 +22,7 @@
   "devDependencies": {
     "@magic-modules/language-switch": "github:magic-modules/language-switch",
     "@magic/core": "github:magic/core",
-    "@magic/test": "0.0.12"
+    "@magic/test": "0.1.6"
   },
   "author": "Wizards & Witches",
   "description": "homepage of the wizards at work gmbh",
