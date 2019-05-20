@@ -1,4 +1,4 @@
-const Social = () =>
+export const View = () =>
   ul({ class: 'Social' }, [
     li([
       Link(
@@ -34,7 +34,7 @@ const Social = () =>
     ]),
   ])
 
-Social.style = vars => ({
+export const style = vars => ({
   textAlign: 'center',
   position: 'absolute',
   top: '1em',
@@ -55,5 +55,3 @@ Social.style = vars => ({
     fill: vars.lessSubtleColor,
   },
 })
-
-module.exports = Social

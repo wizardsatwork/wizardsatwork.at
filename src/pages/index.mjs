@@ -1,13 +1,13 @@
-module.exports = () => [
-  Social,
-  LanguageSwitch,
-  KickStarter,
+export const View = state => [
+  Social(state),
+  LanguageSwitch(state),
+  KickStarter(state),
 
   div({ class: 'hex__container' }, [
-    div({ class: 'hex hero' }, [Hex, WNWLogo]),
+    div({ class: 'hex hero' }, [Hex(), WNWLogo(state)]),
 
     div({ class: 'hex evocell' }, [
-      Hex,
+      Hex(),
       div({ class: 'hex__content' }, [
         img({ src: '/img/evocell.png', alt: 'EvoCell' }),
         p([
@@ -27,7 +27,7 @@ module.exports = () => [
     ]),
 
     div({ class: 'hex magicshifter' }, [
-      Hex,
+      Hex(),
       div({ class: 'hex__content' }, [
         Link({ to: 'https://magicshifter.net' }, [
           img({ src: '/img/magicshifter.png', alt: 'MagicShifter' }),
@@ -48,7 +48,7 @@ module.exports = () => [
     ]),
 
     div({ class: 'hex about' }, [
-      Hex,
+      Hex(),
       div({ class: 'hex__content annotated' }, [
         p('we are a tribe of'),
         p('makers, programmers,'),
@@ -65,7 +65,7 @@ module.exports = () => [
     div({ class: 'hex small hexpaper' }, [
       div({ class: 'container' }, [
         Link({ class: 'hex__link', to: 'https://www.facebook.com/HexPapier/' }, [
-          Hex,
+          Hex(),
           span('Hexpaper'),
         ]),
       ]),

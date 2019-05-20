@@ -1,4 +1,4 @@
-const Hex = () =>
+export const View = () =>
   svg(
     {
       class: 'Hex hex__svg',
@@ -9,7 +9,7 @@ const Hex = () =>
     }),
   )
 
-Hex.style = vars => ({
+export const style = vars => ({
   '.Hex': {
     position: 'absolute',
     width: '100%',
@@ -28,5 +28,3 @@ Hex.style = vars => ({
     float: 'left',
   },
 })
-
-module.exports = Hex

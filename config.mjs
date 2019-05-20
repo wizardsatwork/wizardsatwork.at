@@ -1,6 +1,6 @@
 const textColor = '#4527A0'
 
-module.exports = {
+export default {
   ROOT: 'src',
   THEME: 'wnw',
 

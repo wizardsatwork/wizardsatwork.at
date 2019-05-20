@@ -1,26 +1,24 @@
-const state = {
-  lang: 'de',
-}
-
-const View = () =>
+export const View = state =>
   div({ class: 'impressum section' }, [
-    Social,
-    LanguageSwitch,
-    Link({ to: '/de/' }, Hat),
+    Social(),
+    LanguageSwitch(state),
+    Link({ to: '/de/' }, Hat(state)),
 
     div({ class: 'slogan' }, [
       h1({ class: 'anim' }, 'WIZARDS @ WORK'),
       h2([
-        span({ class: 'anim' }, 'magisch'),
-        span({ class: 'anim' }, ' verwandelte'),
-        span({ class: 'anim' }, ' paradigmen'),
+        span({ class: 'anim' }, 'magically'),
+        span({ class: 'anim' }, ' shifting'),
+        span({ class: 'anim' }, ' paradigms'),
       ]),
 
       p([
-        'wir sind ein stamm von erfindern, programmierern, philosophen,',
-        ' aktivisten, hackern, künstlern, clowns und wissenschaftlern.',
+        'we are a tribe of makers, ',
+        'programmers, engineers, philosophers, ',
+        'activists, hackers, artists, clowns, and scientists.',
       ]),
-      p('wir sind zauberer und hexen bei der arbeit.'),
+
+      p('we are wizards and witches at work.'),
     ]),
 
     div({ class: 'content' }, [
@@ -41,11 +39,6 @@ const View = () =>
         span('Email: '),
         a({ href: 'mailto:office@wizardsatwork.at' }, 'office@wizardsatwork.at'),
       ]),
-      p('Mitglied der WKÖ, WKW'),
+      p('Member of WKÖ and WKW'),
     ]),
   ])
-
-module.exports = {
-  state,
-  View,
-}

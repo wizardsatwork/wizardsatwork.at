@@ -1,13 +1,13 @@
 {
-  "css": "sha384-kYJq2xXfh1ADiHD96XiBjwvUEPtyWEilbggQ5oze4zJeoVQKkq3uTImJC/2pdvpn",
-  "js": "sha384-12eblLZIQwaRk/wRJ1ir/eDnckIU1ckWoEAAyh9y+l2v74NiDJ6OMh5UBVD3h7+I",
+  "css": "sha384-TWPbAre6lokT/ky792ce+lk0v6gvuxyMCJwBJC2MfaX0sj3vrNXTZSoYCgguCN+x",
+  "js": "sha384-+oOMPDwmCzgQxU6n2vDRZM+0Ch5gcotnd8F/Hv1tmfbZ+JV6remJKAc5bT6AkQis",
   "pages": {
-    "/": "sha384-aj4pyGH3DRRi00bdBIhMxTROjjy4qFWEf4m3PtK4UqACNtDvBMR2QlYJXzyjM1b8",
-    "/404/": "sha384-KmQ7SS0HhopFM1c242TiS09rIVpiIwosfj4r1g6ETFimSp8Ej4C7AMFoM9ajno/c",
-    "/de/": "sha384-AX6XbTlRpfzrtsUYoxD0+z4TQQbqxq1qUnWRLnfz9Qkcs2NAkI4C45xMTY5XhhIt",
-    "/de/404/": "sha384-NAMmK0blEUGvdPeZ+KKc14ssiTUtcdJIQ9PQMjWnQSpzkV1afqhf1o3mUrCYsnfp",
-    "/de/impressum/": "sha384-IQAOLYA3eeWNRzx/ENNfpycgQhYetLqevF48Z6kGURxm8QLJZjPfVpNb2pOeJdmA",
-    "/impressum/": "sha384-PGVEJjzNg4RWah3Qaqgk9X+s5jcJzymBVslF/4iDt/ybVNhMw7dL2qh+hiP0XUCH"
+    "/": "sha384-nRP7K1LdlM3H4I17QUEJ0JuApudBFDroQuMR4433lVyqX1xLeB4sbpQP6fxyUPJx",
+    "/404/": "sha384-J7c/KT8Tkiv0JT9fDkatN7ozegRNEOPpgqdmgM2F3CEX4guxbq05PVCNUqTx0284",
+    "/de/": "sha384-/XL0GubvmI7TYGWyx701xOct21Op8vvoTcJrXMTxziCe/iUwxPbZx4JQC75Cc6Fo",
+    "/de/404/": "sha384-e+t1YW3KrqiJFdOcGudLc0WyeuOTTwzu1sP11dAeqeVOwsfg4XULNMnDV8O5j4fH",
+    "/de/impressum/": "sha384-OzHCNKKaQ7XFftsFYLzA7EqTNPhWfKK/63/KeZNPpgG0tl7ELhX5OXyfUc3hdHQ5",
+    "/impressum/": "sha384-l90BRP2xNc1XKfo7GaUf08fStf12FLMHKKc18TiiLss9GaM0M/k7YjYF+kmgoVwT"
   },
   "static": {
     "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
@@ -19,6 +19,6 @@
     "/img/magicshifter.png": "sha384-KgCx3erghb2BVJwYvV7M5TtTp60BxwrdAdpzuLvopiQnSU/C4MtHSp9hu4dDTVLJ",
     "/keybase.txt": "sha384-vtkG70NNeFmMKUZo11c3ImaZRbCEF4owPxW78peVdwdqAi1LHJdL5FqDsRBaKMwa",
     "/robots.txt": "sha384-6/LfoylsmsVLd8H+uB82k+dDMNZuLI3Yzw8Jkj2oEOvFVuSC9CFSl6TEeB+EDc6d",
-    "/sitemap.xml": "sha384-rP1yy15uxaRODeLdKTNzhBy1K37VNYUs0NfzrNZ6QeUFYtaVaImrYNNSzR5LGMvX"
+    "/sitemap.xml": "sha384-EvsMiYhHMI6m0TvOLathZ687wSFTSdLIpzZNAyCjaNE0qwdBBzwMP9rdFz+QaRHX"
   }
 }

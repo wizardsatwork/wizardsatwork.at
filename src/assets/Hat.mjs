@@ -1,4 +1,4 @@
-module.exports = () => ({ logoAnimated }) =>
+export const View = ({ logoAnimated }) =>
   svg(
     {
       id: 'hat',

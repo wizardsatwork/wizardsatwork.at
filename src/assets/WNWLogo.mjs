@@ -1,6 +1,6 @@
-const WNWLogo = (state, actions) =>
+export const View = state =>
   div({ id: 'hero', class: 'WNWLogo hex__content' }, [
-    Hat,
+    Hat(state),
 
     h1({ class: 'anim' }, 'WIZARDS @ WORK'),
     h2([
@@ -10,7 +10,7 @@ const WNWLogo = (state, actions) =>
     ]),
   ])
 
-WNWLogo.style = vars => ({
+export const style = vars => ({
   '.WNWLogo': {
     'h1, h2 span': {
       animationName: 'fade-in',
@@ -123,11 +123,11 @@ WNWLogo.style = vars => ({
   },
 })
 
-WNWLogo.state = {
+export const state = {
   logoAnimated: false,
 }
 
-WNWLogo.actions = {
+export const actions = {
   click: e => state => {
     if (!state.logoAnimated) {
       setTimeout(actions.endAnim, 500)
@@ -143,7 +143,7 @@ WNWLogo.actions = {
   },
 }
 
-WNWLogo.global = {
+export const global = {
   state: {
     logoAnimated: true,
   },
@@ -152,5 +152,3 @@ WNWLogo.global = {
     endAnim: true,
   },
 }
-
-module.exports = WNWLogo
