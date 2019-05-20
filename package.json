@@ -1,6 +1,9 @@
 {
   "name": "wizardsatwork.at",
   "version": "0.23.5",
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
@@ -9,7 +12,8 @@
     "prod": "NODE_ENV=production magic build serve",
     "dev": "magic dev",
     "publish": "magic publish",
-    "connect": "magic connect"
+    "connect": "magic connect",
+    "coveralls": "coveralls"
   },
   "repository": {
     "type": "git",
