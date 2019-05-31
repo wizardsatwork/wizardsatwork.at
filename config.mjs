@@ -6,6 +6,7 @@ export default {
 
   WEB_ROOT: '/',
   URL: 'wizardsatwork.at',
+  CNAME: 'wizardsatwork.at',
 
   PUBLIC: 'docs',
 
