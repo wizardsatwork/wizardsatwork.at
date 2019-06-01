@@ -32,10 +32,11 @@ export const View = state => [
     div({ class: 'hex magicshifter' }, [
       Hex(),
       div({ class: 'hex__content' }, [
-        Link({ to: 'https://magicshifter.net' }, [
+        Link(
+          { to: 'https://magicshifter.net' },
           img({ src: '/img/magicshifter.png', alt: 'MagicShifter' }),
-          p('Der MagicShifter 3000 ist ein open source Zauberstab für Lichtmagie.'),
-        ]),
+        ),
+        p('Der MagicShifter 3000 ist ein open source Zauberstab für Lichtmagie.'),
 
         Link(
           {

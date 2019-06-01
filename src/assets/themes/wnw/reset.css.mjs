@@ -45,7 +45,7 @@ export default {
     boxSizing: 'border-box',
   },
 
-  '#Magic': {
+  '.Wrapper': {
     margin: '1em auto 0',
     width: '90%',
   },

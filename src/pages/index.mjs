@@ -29,12 +29,13 @@ export const View = state => [
     div({ class: 'hex magicshifter' }, [
       Hex(),
       div({ class: 'hex__content' }, [
-        Link({ to: 'https://magicshifter.net' }, [
+        Link(
+          { to: 'https://magicshifter.net' },
           img({ src: '/img/magicshifter.png', alt: 'MagicShifter' }),
-          p([
-            span('The MagicShifter 3000 is an open source hardware gadget'),
-            span({ class: 'add' }, ' for lighting, gaming and persistence of vision applications.'),
-          ]),
+        ),
+        p([
+          span('The MagicShifter 3000 is an open source hardware gadget'),
+          span({ class: 'add' }, ' for lighting, gaming and persistence of vision applications.'),
         ]),
 
         Link(

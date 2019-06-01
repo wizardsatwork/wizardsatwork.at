@@ -5,10 +5,6 @@ export default vars => ({
     textShadow: 'none',
   },
 
-  '*': {
-    boxSizing: 'border-box',
-  },
-
   body: {
     color: vars.textColor,
     fontFamily: [
@@ -25,8 +21,6 @@ export default vars => ({
     ].join(','),
     fontSize: '15px',
     lineHeight: '1.2',
-    maxWidth: vars.maxWidth,
-    margin: '0 auto',
   },
   'h1, h2': {
     margin: '0 0 0.5em',
@@ -45,6 +39,9 @@ export default vars => ({
   },
   '#Magic': {
     lineHeight: '1.2',
+  },
+  '.Wrapper': {
+    maxWidth: vars.maxWidth,
   },
   '.animated': {
     animationDelay: '300ms',
@@ -234,7 +231,7 @@ export default vars => ({
       display: 'none',
     },
 
-    '#Magic': {
+    '.Wrapper': {
       margin: '5em auto 0',
       width: '800px',
       position: 'relative',
@@ -296,7 +293,7 @@ export default vars => ({
       },
     },
 
-    '#Magic': {
+    '.Wrapper': {
       margin: '1em auto 0',
       width: '1100px',
     },
