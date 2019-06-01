@@ -1,13 +1,13 @@
 {
-  "css": "sha384-SCBliKgMWJb9HoRFPz04/bfbNK+NYYwvEDnlVkEXyR5Yvg3Q5evuKL+yt2f5rU9M",
-  "js": "sha384-djlCSpjLBME397jTPsjEKvGgG5CEhAfq+n8lG1MY8Ps9qGHD0kU5eSMPEU/vVD32",
+  "css": "sha384-Ld8neqHZonJA5X99zGvUlaU1VpaxjDlCdywSkhi0oTA7mmYWshNynwi4vDBd8Ae9",
+  "js": "sha384-i+4XxY+5vTo5fE/CWouom9mvs51Ep+ZtM4qY6WVSWZN3HMEN+MLT1U5ds8LVw3IA",
   "pages": {
-    "/": "sha384-yOdIP9vKIkuHQKg5ZyjhPfQUZ/1wfzzIM3dy4tQVpxBJkYHusWT3loQfBXco9N0i",
-    "/404/": "sha384-+DKpvxr/Oi3rC2f+g+YoYlZsFZhfBWT/IV3t9igYrpMlYLq39W377xBR9MgUAp24",
-    "/de/": "sha384-fe0YzQ/QjmljfsOeZPCpuaq356ot+hnKCw7ciqr3gQdS/ir8Nj86eDTpE53Eaq2i",
-    "/de/404/": "sha384-UxanGrDdM0p1l5J8zH6udreujPq5AFhWaYXYYh7dpWefv13ZeePjvs3IhBGqAVeN",
-    "/de/impressum/": "sha384-dtdaZniQH6TaAirkDLF3UNbTSGQsufySKrRMK4b49EwrVP70DbwpMnBaU+RYtHG7",
-    "/impressum/": "sha384-nmWKCTb+1bZ7KyaO2ZXJ42JgWqZ7PVBrPKzOUx5SRmsQtbIYjQZE5OgzPD063G/H"
+    "/": "sha384-Zq4ykFoQSzR1LMlq28c11HacpUadt5uEfhCnSvKVLAvgpyusOrhaV3xzAB9Bvw89",
+    "/404/": "sha384-OtDJ//wH8Ei51aWXuRbGkw0b1gWFvcnFiSbX0Keu8sSxqS8BfTojU3tNUYjjC4bN",
+    "/de/": "sha384-kD5CwfH+jg/SGGAzleJrNWDZqFIPLPsY5w+ubH3MqEt7y33clXrztQxavXaMaIbh",
+    "/de/404/": "sha384-8i7iAFCzHEstT7GYEF8FZqsOZFuWrDjp4LJlbi4JNyfDAtmqj4yCwB3N4u4ee8Tu",
+    "/de/impressum/": "sha384-vUmo8uVef5WXVa+hvYWbcwSJc1MX/49eRMUMO2ZKLyl5I9PzORGShE7ccXCriqCu",
+    "/impressum/": "sha384-TA55Z1mhDj6aNFabpZWP+1005yH0Kk2P3+cDwQlqlSSzdN4Lx0co5PsDJF4eCCUf"
   },
   "static": {
     "/CNAME": "sha384-OB7KP9Uw1gS5K9A8SeB/HutoULc3QHHUhzSBjid8L1wJYUDP/3LCChwiwi9ir/hs",
@@ -20,6 +20,6 @@
     "/img/magicshifter.png": "sha384-KgCx3erghb2BVJwYvV7M5TtTp60BxwrdAdpzuLvopiQnSU/C4MtHSp9hu4dDTVLJ",
     "/keybase.txt": "sha384-vtkG70NNeFmMKUZo11c3ImaZRbCEF4owPxW78peVdwdqAi1LHJdL5FqDsRBaKMwa",
     "/robots.txt": "sha384-6/LfoylsmsVLd8H+uB82k+dDMNZuLI3Yzw8Jkj2oEOvFVuSC9CFSl6TEeB+EDc6d",
-    "/sitemap.xml": "sha384-rFENQDM2uKzRbCmWiyWk3WHE0XMEx7CytPSmPNBGwCWOIV/6trMn8e34X4T+KUFj"
+    "/sitemap.xml": "sha384-TLPPDefgClN08MrM8TtGHFrs4ES3yjLxIGO/FbSq2KN4zRLkCFapmRxu0YUEpKfH"
   }
 }
