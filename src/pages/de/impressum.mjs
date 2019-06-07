@@ -2,7 +2,7 @@ export const state = {
   lang: 'de',
 }
 
-export const View = () =>
+export const View = state =>
   div({ class: 'impressum section' }, [
     Social(),
     LanguageSwitch(state),
