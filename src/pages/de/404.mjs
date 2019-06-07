@@ -4,7 +4,7 @@ export const state = {
 }
 
 export const View = () => [
-  h3('404 - Seite nicht gefundend.'),
+  h3(state.title),
   p('Hier ist leider nichts als Leere..'),
   p([Link({ to: '/' }, 'Klicke hier'), ' um ruhigere Gewässer zu erreichen.']),
 ]
