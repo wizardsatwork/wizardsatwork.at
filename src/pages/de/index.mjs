@@ -5,7 +5,6 @@ export const state = {
 export const View = state => [
   Social(),
   LanguageSwitch(state),
-  KickStarter(),
 
   div({ class: 'hex__container' }, [
     div({ class: 'hex hero' }, [Hex(), WNWLogo(state)]),
