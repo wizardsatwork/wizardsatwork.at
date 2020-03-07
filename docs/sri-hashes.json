@@ -1,13 +1,13 @@
 {
-  "css": "sha384-4FbZJxJwRg6EAvSg+GZ+J2FpfeYHKF05JlNRW7ecGZrN5zURZJLJ/wlQe5ihVYwv",
-  "js": "sha384-RfGEWri+mnzp2dY9Fvs6Q2dHlS7OSXF7vzpzLjYc9EriNYJSauxaSsBeiv1zBcd+",
+  "css": "sha384-ial69yLWiDjuSXRQCVMraZRtc3c3vBoZ9mhUOplYvYgj94g6DyHW7mwwiTu9sdZP",
+  "js": "sha384-ZcOizTzb+GQ+ywr9sHx3XNQfZkPUOs6Awxn7aJfOcoYRQVql3XLsCF7ZIQtTla5N",
   "pages": {
-    "/": "sha384-dLrgQhinlTVaHZL+UYhY76StwMEIPLD/IONplsfH9PbWJUwMO3wxTiLpaw7gva0o",
-    "/404/": "sha384-Q880B4HiqkzllCjeXm3qCk9/+YpbG/D5YO5sSq3rnZkQxpernh2u1v+QdWxtMIsJ",
-    "/de/": "sha384-+ZJMEZpDFy3juLOf6qa9pD3S8MQv3TtfnxXXScu5ouoMydCsF+2lizwY+pja6PCU",
-    "/de/404/": "sha384-rIomDDsiS9itbw+iyq5W0YuM2DTZdCK9LLtBgktrFaIV8YMDt0i0bKRRL2gUZxsL",
-    "/de/impressum/": "sha384-As1QMPLybrJjXso/IKN+nWHcIre1YWdNgr8nmQWC92rfFDVqk4qxm2fQJcrRD8XL",
-    "/impressum/": "sha384-frBpeUXPRvpWR1fvRrjiAMv9bv6fxE2dc3xX6nNJXxWfcE4en+ctB32rG3RUojO5"
+    "/": "sha384-8cLc5H6+SFzFWaYe9BlTRsIE7+Ydrfcv/F//lCCG30rSv4kDur2khwETTbJ1gF2O",
+    "/404/": "sha384-0/u+DMIX9U8B9x/Cqy3x6ILE3xdOUH6ggLs74KqaDVQMYSszQaVSp4lXY7p15qen",
+    "/de/": "sha384-g6fdxP7DZA8UuW+B0eX2TXwU/4/o+9SB+txK/A13AmZKtKAwef1/NE4ccN+mA/fl",
+    "/de/404/": "sha384-eUS31mukPyHMhLpPw+PSLkV7xdHOn0RhUZDzYNP+snlYpnMVyiC6bmQbSj6lbW/S",
+    "/de/impressum/": "sha384-xoVHIHMeLulk1Ue0cdVLMjGdizQ2AfRb3EkbU1zVIHlIF+/qfHcqDUS27ObZ0yQW",
+    "/impressum/": "sha384-igEFKb5popQ0dSp9xrL73HdU2CEot87OjhxxiF1q1lv5uFWvXoqvB7/JuqzU5W84"
   },
   "static": {
     "/CNAME": "sha384-OB7KP9Uw1gS5K9A8SeB/HutoULc3QHHUhzSBjid8L1wJYUDP/3LCChwiwi9ir/hs",
@@ -20,6 +20,6 @@
     "/img/magicshifter.png": "sha384-KgCx3erghb2BVJwYvV7M5TtTp60BxwrdAdpzuLvopiQnSU/C4MtHSp9hu4dDTVLJ",
     "/keybase.txt": "sha384-vtkG70NNeFmMKUZo11c3ImaZRbCEF4owPxW78peVdwdqAi1LHJdL5FqDsRBaKMwa",
     "/robots.txt": "sha384-6/LfoylsmsVLd8H+uB82k+dDMNZuLI3Yzw8Jkj2oEOvFVuSC9CFSl6TEeB+EDc6d",
-    "/sitemap.xml": "sha384-Y8QyTFV4A+DPG+Py2uiBtah3mHmuE6ql1BkFyG6RbbQn4L1sI4zFoh+/ffKB199G"
+    "/sitemap.xml": "sha384-POWAIsd+caWAyBQngW5XLKwEEOl/nQACenK7Pio6nZcrrdB1LV+exlau8IWl6c3J"
   }
 }
