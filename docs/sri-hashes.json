@@ -1,25 +1,17 @@
 {
   "css": "sha384-ial69yLWiDjuSXRQCVMraZRtc3c3vBoZ9mhUOplYvYgj94g6DyHW7mwwiTu9sdZP",
-  "js": "sha384-ZcOizTzb+GQ+ywr9sHx3XNQfZkPUOs6Awxn7aJfOcoYRQVql3XLsCF7ZIQtTla5N",
+  "js": "sha384-2zEXegZ8XFq0DY/5pGZG8i+o/olKt0He0q6H4sGqTE8C0Yo8zRxV9QJ8wKCGiQJk",
   "pages": {
-    "/": "sha384-8cLc5H6+SFzFWaYe9BlTRsIE7+Ydrfcv/F//lCCG30rSv4kDur2khwETTbJ1gF2O",
-    "/404/": "sha384-0/u+DMIX9U8B9x/Cqy3x6ILE3xdOUH6ggLs74KqaDVQMYSszQaVSp4lXY7p15qen",
-    "/de/": "sha384-g6fdxP7DZA8UuW+B0eX2TXwU/4/o+9SB+txK/A13AmZKtKAwef1/NE4ccN+mA/fl",
-    "/de/404/": "sha384-eUS31mukPyHMhLpPw+PSLkV7xdHOn0RhUZDzYNP+snlYpnMVyiC6bmQbSj6lbW/S",
-    "/de/impressum/": "sha384-xoVHIHMeLulk1Ue0cdVLMjGdizQ2AfRb3EkbU1zVIHlIF+/qfHcqDUS27ObZ0yQW",
-    "/impressum/": "sha384-igEFKb5popQ0dSp9xrL73HdU2CEot87OjhxxiF1q1lv5uFWvXoqvB7/JuqzU5W84"
+    "/": "sha384-Und2XH0+giG+v+z4qKi1VKzbnpHjyizcJqVSzpAi8R3mBEhBzeaA6OgUg2/nnX90",
+    "/404/": "sha384-urjr/JXTp+ZOz0EMS5RJdctdwlqD6PtXhePkjG5tmBo1jE9bulTIFp+NGDSEgS7/",
+    "/de/": "sha384-W6qmRacK8eKl6bWQBgIzFhx6bDLB9zmalUTO65ZFTi1Ff2glbuFrNaVDqyEepNRr",
+    "/de/404/": "sha384-Xqjjx3/SYyAkzLFfYwSY/Bs7WzEpY+eaNYtCkJGIGDsXmk+Qw9h6R4KYYgkjEqkM",
+    "/de/impressum/": "sha384-hV3JeEQ4K3Udf2FATPA1ak84m3GstL2PZfE9s1PMmjZAOLQusecx1W4EijeyEn86",
+    "/impressum/": "sha384-uz0gXMyEMWmDZPP61W6icPfsH5PgsZN+rHxGEhfD4l7JGDODC3HkI9UHbB9rXLTP"
   },
   "static": {
-    "/CNAME": "sha384-OB7KP9Uw1gS5K9A8SeB/HutoULc3QHHUhzSBjid8L1wJYUDP/3LCChwiwi9ir/hs",
-    "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
-    "/img/evocell.jpg": "sha384-hKjrfxWtSP0J1Oc1p0Dg02Bng7HiMhmtMzfFazifJiDECJS9oT9KKtBnsZO2ghVY",
-    "/img/evocell.png": "sha384-tW+akNJ4NuyJTPgf+RUcczzL+IjgGGI7M4B6xUgkvIoknkWWjA/j6xjnu3UQsO5/",
-    "/img/hexpaper.jpg": "sha384-1Y37yT0Lxu+JHFA4OSWjz3D4vW/IFmGGVVHFEwrVET4Tr5QcFjmvftB/SFrFXn5N",
-    "/img/kickstarter.jpg": "sha384-oOPjtCx9CLbCX8zDq70D8WQdRf7WeKXK4tGCMVxkM+5N5rSdKnw2FYH611HJfOUz",
-    "/img/magicshifter.jpg": "sha384-0XFVNHJF4hOhvUcY4vBnS5Cjglh5O7pbP9DdbYasqV1i/pjviJHYU1bmFzykMwiA",
-    "/img/magicshifter.png": "sha384-KgCx3erghb2BVJwYvV7M5TtTp60BxwrdAdpzuLvopiQnSU/C4MtHSp9hu4dDTVLJ",
     "/keybase.txt": "sha384-vtkG70NNeFmMKUZo11c3ImaZRbCEF4owPxW78peVdwdqAi1LHJdL5FqDsRBaKMwa",
     "/robots.txt": "sha384-6/LfoylsmsVLd8H+uB82k+dDMNZuLI3Yzw8Jkj2oEOvFVuSC9CFSl6TEeB+EDc6d",
-    "/sitemap.xml": "sha384-POWAIsd+caWAyBQngW5XLKwEEOl/nQACenK7Pio6nZcrrdB1LV+exlau8IWl6c3J"
+    "/sitemap.xml": "sha384-E9Eqcg07EEX8H2fk8g32dqzzO8uyDNAZ6rPPwNRmz6TTvTGxHB9GIcCzcsu5+lMD"
   }
 }
